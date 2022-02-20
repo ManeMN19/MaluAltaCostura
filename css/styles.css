@@ -25,6 +25,64 @@ body {
     font-family: var(--montserrat);
 }
 
+.navbar {
+    background-color: var(--orchidPink)
+}
+
+.nav-link {
+    color: white !important;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 200;
+    line-height: 1.6;
+    padding: 1rem 3rem;
+}
+
+.nav-link:hover {
+    font-weight: bold;
+}
+
+.active{
+    font-weight: bold;
+}
+
+.howdoes {
+    background-color: #E7EEDF;
+}
+
+.feature h2 {
+    font-size: 18px;
+    line-height: 1.7rem;
+    font-weight: 500;
+}
+
+.feature p {
+    text-align: center;
+    font-weight: 400;
+    line-height: 1.7rem;
+}
+
+.logo {
+    height: 60px;
+    width: 60px
+}
+
+.needle { 
+    content: url(/images/needle-and-thread.png);
+}
+
+.dressmaker { 
+    content: url(/images/dressmaker.png);
+}
+
+.calendar { 
+    content: url(/images/calendar.png);
+}
+
+.shipped { 
+    content: url(/images/shipped.png);
+}
+
 .header__products {
     font-family: var(--lexend);
     text-align: center;
@@ -33,46 +91,29 @@ body {
     font-weight: 100;
 }
 
-img {
+/* img {
     max-width: 100%;
-}
+} */
 
-.logo img {
-    max-width: 8%;
-}
 
-.container {
-    max-width: 100rem;
-    margin: 0 auto;
-    background-color: var(--orchidPink);
-    padding: 0.5rem 2rem;
-}
 
-.logo {
-    display: flex;
-    justify-content: center;
-}
 
-.nav {
-    margin: 0.5rem auto;
-}
-
-.nav__menu {
-    list-style: none;
+.site-header__cart-count {
+    background: #909090;
+    height: 15px;
+    width: 15px;
+    margin: 13px 5px 0 0;
     display: flex;
     justify-content: space-around;
-    flex-direction: row;
+    border-radius: 50%;
 }
 
-.nav__link {
-    color: white;
-    text-decoration: none;
-    font-size: 1rem;
-    font-weight: 600;
-    line-height: 1.6;
-    padding: 0.5rem;
+.cart-count {
+    letter-spacing: -0.3px;
+    position: absolute;
+    font-size: 10px;
 }
-
+/*
 .nav__link:hover {
     border: 0.2rem inset var(--baby);
     color: var(--indigo);
@@ -191,4 +232,4 @@ h5 {
     display: flex;
     justify-content: space-around;
     flex-direction: column;
-}
+} */
