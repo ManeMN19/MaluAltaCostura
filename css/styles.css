@@ -7,10 +7,7 @@
 :root {
     --orchidPink: #F8BBD0;
     --baby:#FDFFFC;
-    --frenchrose:#FF4081;
     --indigo:#16425B;
-    --dark:#2B0210;
-
     --lavanderblush: ##EEDFDF;
     --ivory: #E7EEDF;
     --azure: #DFEEEE;
@@ -141,7 +138,7 @@ body {
     margin-top: -35px;
     height: 40px;
     color: var(--baby);
-    background-color: #16425B;
+    background-color: var(--indigo);
 }
 
 .card:hover {
