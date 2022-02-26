@@ -81,19 +81,19 @@ body {
 }
 
 .needle { 
-    content: url(/images/icons/needle-and-thread.png);
+    content: url(../images/icons/needle-and-thread.png);
 }
 
 .dressmaker { 
-    content: url(/images/icons/dressmaker.png);
+    content: url(../images/icons/dressmaker.png);
 }
 
 .calendar { 
-    content: url(/images/icons/calendar.png);
+    content: url(../images/icons/calendar.png);
 }
 
 .shipped { 
-    content: url(/images/icons/shipped.png);
+    content: url(../images/icons/shipped.png);
 }
 
 .footer {
