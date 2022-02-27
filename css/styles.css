@@ -107,6 +107,13 @@ body {
     border-left: solid 1px black;
 }
 
+@media(max-width:990px){
+
+    .guarantees-text__middle {
+        border: none;
+    }
+}
+
 .guarantees-text p {
     padding: 0 50px;
 }
