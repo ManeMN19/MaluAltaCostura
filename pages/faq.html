@@ -7,7 +7,7 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="../css/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;400;500;700&family=Montserrat:wght@100;400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link
@@ -18,7 +18,7 @@
       referrerpolicy="no-referrer"
     />
      <!--Fav Icon-->
-     <link rel="shortcut icon" href="images/icons/logomalu.png" type="image/x-icon" />
+     <link rel="shortcut icon" href="../images/icons/logomalu.png" type="image/x-icon" />
 
     <title>Malu Alta Costura - Diseñadora de Modas</title>
 </head>
@@ -44,7 +44,7 @@
                     </ul>
                 </div>
                 <div class="mx-auto order-0"> <!--Logo-->
-                    <a class="navbar-brand mx-auto" href="index.html"><img src="images/icons/logomalu.png" alt="logo" width="121px" height="50%"></a>
+                    <a class="navbar-brand mx-auto" href="../index.html"><img src="../images/icons/logomalu.png" alt="logo" width="121px" height="50%"></a>
                 </div>
                 <div class="navbar-collapse w-100 order-3">
                     <ul class="navbar-nav ms-auto px-lg-5">
@@ -75,12 +75,182 @@
         </nav>
     </header>
     <main>
-       
+        <h1 class="page-title text-center my-5">Preguntas Frecuentes</h1>
+        <div class="accordion page-content my-5" id="FAQ">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        ¿Dónde se encuentran sus showrooms?
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Contamos con 2 showrooms en Guadalajara:
+                        <ul>
+                            <li>
+                                <strong>Showroom Providencia: </strong> Ottawa 1517, Providencia 3ra Sección, Guadalajara, Jalisco.
+                            </li>
+                            <li>
+                                <strong>Showroom Rubén Darío: </strong> Av. Rubén Darío 1531, Providencia 4a. Secc, 44639 Guadalajara, Jal.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        ¿Cuáles son sus horarios?
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Nuestros Showrooms tienen un horario de <strong>Lunes a Viernes</strong> de 10 am a 8 pm y <strong>Sábados</strong> de 10 am a 2 pm.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        ¿Cómo puedo agendar una cita?
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        La puedes realizar a través de nuestro sitio web en la sección de Agenda tu Cita, o bien en nuestras redes sociales, correo electrónico, teléfono o Whatsapp.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        ¿Cómo puedo cambiar o cancelar mi cita?
+                    </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Si necesitas realizar cambios o cancelar tu cita, favor de comunicarte al teléfono <a href="tel:+523338176906">(33) 38176906</a>. O bien, desde el correo que recibiste con la confirmación de tu cita, ahí mismo podrás reagendar o cancelar.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFive">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                    ¿Cuáles son sus tiempos de entrega?
+                </button>
+                </h2>
+                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    Ya que nuestros vestidos son personalizados y a la medida, requieren mínimo de 3 semanas, una vez realizado tu pedido y la toma de tus medidas.
+                </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingSix">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                        ¿Como obtienen mis medidas?
+                    </button>
+                </h2>
+                <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        La toma de medidas la puedes realizar en cualquiera de nuestros Showrooms, nuestros consultores de imagen se encargarán de tomar tus medidas y generar un perfil para tus futuras compras.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingSeven">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                        ¿Cómo puedo hacer cambios a mi pedido?
+                    </button>
+                </h2>
+                <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Para poder cumplir con nuestros tiempos promesas de entrega, no nos es posible realizar cambios de primera instancia, sin embargo, con gusto podemos ayudarte a checar si aún es posible, solo ponte en contacto con nosotros en nuestros canales de atención.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingEight">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                        ¿Qué tipo de telas usan para confeccionar sus vestidos?
+                    </button>
+                </h2>
+                <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Nuestras telas son seleccionados para ofrecerte la mejor calidad en el mercado. Nuestros principales proveedores son: San Ildefonso, Santa Mónica Textil, Parisina; trabajamos con las mejores casas textileras del mundo.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingNine">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                        ¿Manejan ropa por tallas, como chico, mediano y grande?
+                    </button>
+                </h2>
+                <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Ya que nuestro servicio está diseñado para hacer vestidos a la medida, no contamos con sistema de medidas.Pero nuestra misión es lograr entregarte tus prendas con el fit perfecto.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTen">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                        ¿Cúales son sus datos de contacto?
+                    </button>
+                </h2>
+                <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <ul>
+                            <li>
+                                <strong>Mail: </strong> <a href="mailto:malu_auxi@hotmail.com">malu_auxi@hotmail.com</a>.
+                            </li>
+                            <li>
+                                <strong>Teléfono: </strong> <a href="tel:+523338176906">33 3817 6906</a>
+                            </li>
+                            <li>
+                                <strong>Whatsapp: </strong> <a href="https://wa.me/+523311532750" target="_blank">33 1153 2750</a>
+                            </li>
+                        </ul>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="guarantees">
+            <div class="container px-4 py-3" id="featured-3">
+                <div class="row g-4 py-3 row-cols-1 row-cols-lg-3">
+                    <div class="feature col guarantees-text">
+                        <div class="feature-icon text-center">
+                            <span class="logo findus"></span>
+                        </div>
+                        <h2 class="text-center">ENCUÉNTRANOS</h2>
+                        <p>Contamos con 2 Showrooms ubicados Guadalajara.</p>
+                    </div>
+                    <div class="feature col guarantees-text__middle">
+                        <div class="feature-icon text-center">
+                            <span class="logo contactus"></span>
+                        </div>
+                        <a href="https://wa.me/+523311532750" target="_blank">
+                            <h2 class="text-center">CONTÁCTANOS</h2>
+                            <p>Puedes contactarnos vía Whatsapp o llamada telefónica.</p>
+                        </a>
+                    </div>
+                    <div class="feature col guarantees-text">
+                        <div class="feature-icon text-center">
+                            <span class="logo medal"></span>
+                        </div>
+                        <h2 class="text-center">GARANTÍA DE SATISFACCIÓN</h2>
+                        <p>Nos aseguramos de entregarte tus prendas con la mejor calidad y el fit perfecto.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
         <footer class="pt-5 px-5 container-fluid footer">
             <div class="row">
                 <div class="col-lg-2">
-                    <a href="index.html"><img src="images/icons/logomalu.png" alt="logo" width="50%"></a>
+                    <a href="../index.html"><img src="../images/icons/logomalu.png" alt="logo" width="50%"></a>
                     <ul class="nav flex-column">
                         <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Nosotros</a></li>
                         <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Tu cuenta</a></li>
@@ -90,7 +260,7 @@
                 <div class="col-lg-2">
                 <h5 class="mt-lg-4">Colecciones</h5>
                 <ul class="nav flex-column">
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Agenda tu cita</a></li>
+                    <li class="nav-item mb-2"><a href="/pages/faq.html" class="nav-link p-0 text-muted">Agenda tu cita</a></li>
                     <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Showrooms</a></li>
                     <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Bodas</a></li>
                 </ul>
@@ -104,7 +274,7 @@
                     <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Contacto</a></li>
                     <li class="nav-item mb-2"><a href="tel:+523338176906" class="nav-link p-0 text-muted">Tel:(33)38176906</a></li>
                     <li class="nav-item mb-2"><a href="https://wa.me/+523311532750" target="_blank" class="nav-link p-0 text-muted">WA:(33)11532750</a></li>
-                    <li class="nav-item mb-2"><a href="mailto:malu_auxi@hotmail.com" class="nav-link p-0 text-muted">@:malu_auxi@hotmail.com</a></li>
+                    <li class="nav-item mb-2"><a href="mailto:malu_auxi@hotmail.com" target="_blank" class="nav-link p-0 text-muted">@:malu_auxi@hotmail.com</a></li>
                 </ul>
                 </div>
       
