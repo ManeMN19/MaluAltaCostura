@@ -1,0 +1,36 @@
+.navbar {
+    background-color: var(--orchidPink)
+}
+
+.nav-link {
+    color: white !important;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 200;
+    line-height: 1.6;
+    padding: 1rem 3rem;
+
+    &:hover {
+        font-weight: bold;
+    }
+}
+
+.active{
+    font-weight: bold;
+}
+
+.site-header__cart-count {
+    background: #909090;
+    height: 15px;
+    width: 15px;
+    margin: 13px 5px 0 0;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 50%;
+}
+
+.cart-count {
+    letter-spacing: -0.3px;
+    position: absolute;
+    font-size: 10px;
+}

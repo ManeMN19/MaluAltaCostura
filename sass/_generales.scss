@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --orchidPink: #F8BBD0;
+    --baby:#FDFFFC;
+    --indigo:#16425B;
+    --lavanderblush: ##EEDFDF;
+    --ivory: #E7EEDF;
+    --azure: #DFEEEE;
+    --lavanderweb: #E7DFEE;
+    --isabelline: #f5f0f0;
+
+    --lexend: 'Lexend', sans-serif;
+    --montserrat: 'Montserrat', sans-serif;
+}
+
+body {
+    font-family: var(--montserrat);
+}
