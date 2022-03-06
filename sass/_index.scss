@@ -7,21 +7,18 @@
     width: 60px;
 }
 
-.calendar { 
-    content: url(../images/icons/calendar.png);
-}
+$icons:(
+    calendar:url(../images/icons/calendar.png),
+    needle: url(../images/icons/needle-and-thread.png),
+    dressmaker: url(../images/icons/dressmaker.png),
+    shipped: url(../images/icons/shipped.png)
+);
 
-.needle { 
-    content: url(../images/icons/needle-and-thread.png);
-}
-
-.dressmaker { 
-    content: url(../images/icons/dressmaker.png);
-}
-
-.shipped { 
-    content: url(../images/icons/shipped.png);
-}
+@each $icon, $content in $icons {
+    .#{$icon} {
+        content: $content;
+    }
+ }
 
 /* Productos */
 .cards-list {

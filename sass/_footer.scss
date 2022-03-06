@@ -1,3 +1,9 @@
+$iconos:(
+    findus:url(../images/icons/map.png),
+    contactus: url(../images/icons/llamada-telefonica.png),
+    medal:url(../images/icons/medalla.png)
+);
+
 .footer {
     background-color: var(--lavanderweb);
 
@@ -101,14 +107,8 @@
     padding: 0 50px;
 }
 
-.findus { 
-    content: url(../images/icons/map.png);
-}
-
-.contactus { 
-    content: url(../images/icons/llamada-telefonica.png);
-}
-
-.medal { 
-    content: url(../images/icons/medalla.png);
-}
+@each $icon, $content in $iconos {
+    .#{$icon} {
+        content: $content;
+    }
+ }
