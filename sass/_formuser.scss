@@ -1,0 +1,29 @@
+.header__user { 
+    font-family: var(--lexend);
+}
+
+.form-label {
+    color: #714179;
+}
+
+.form-control::placeholder {
+  color: var(--lavanderblush);
+}
+
+.btnlogin {
+    background-color: var(--lavanderweb);
+    width: 250px;
+}
+
+.modal-content {
+    background-color: var(--lavanderblush);
+}
+
+.btn-secondary {
+    background-color: #714179;;
+}
+
+.modal-body {
+    font-weight: 400;
+    text-align: center;
+}

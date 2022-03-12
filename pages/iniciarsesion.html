@@ -70,7 +70,40 @@
             </nav>
         </header>
         <main>
-            <h1 class="header__products">Tienda en Linea</h1>
+            <h1 class="header__user text-center pt-5">Iniciar Sesión</h1>
+            <section class="container px-5 py-5 mt-3">
+                <div class="col-lg-5 mx-auto">
+                    <label for="emailuser" class="form-label">Correo Electrónico</label>
+                    <input type="email" class="form-control" id="emailuser" required="true" placeholder="hola@micorreo.com">
+                </div>
+                <div class="col-lg-5 mx-auto mt-4">
+                    <label for="passworduser" class="form-label">Contraseña</label>
+                    <input type="password" class="form-control" id="passworduser" placeholder="Contraseña">
+                </div>
+                <div class="col-lg-2 col-sm-8 mx-auto">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btnlogin my-5" data-bs-toggle="modal" data-bs-target="#login">
+                        INGRESAR
+                    </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="login" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title text-center" id="staticBackdropLabel">Bienvenido</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    Muchas gracias por iniciar sesión. <br> Seguimos trabajando para darte un excelente servicio.
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
             <section class="guarantees">
                 <div class="container px-4 py-3" id="featured-3">
                     <div class="row g-4 py-3 row-cols-1 row-cols-lg-3">

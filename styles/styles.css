@@ -9,7 +9,7 @@
   --orchidPink: #F8BBD0;
   --baby:#FDFFFC;
   --indigo:#16425B;
-  --lavanderblush: ##EEDFDF;
+  --lavanderblush: #EEDFDF;
   --ivory: #E7EEDF;
   --azure: #DFEEEE;
   --lavanderweb: #E7DFEE;
@@ -318,5 +318,47 @@ body {
 
 .medal {
   content: url(../images/icons/medalla.png);
+}
+
+.header__user {
+  font-family: var(--lexend);
+}
+
+.form-label {
+  color: #714179;
+}
+
+.form-control::-webkit-input-placeholder {
+  color: var(--lavanderblush);
+}
+
+.form-control:-ms-input-placeholder {
+  color: var(--lavanderblush);
+}
+
+.form-control::-ms-input-placeholder {
+  color: var(--lavanderblush);
+}
+
+.form-control::placeholder {
+  color: var(--lavanderblush);
+}
+
+.btnlogin {
+  background-color: var(--lavanderweb);
+  width: 250px;
+}
+
+.modal-content {
+  background-color: var(--lavanderblush);
+}
+
+.btn-secondary {
+  background-color: #714179;
+}
+
+.modal-body {
+  font-weight: 400;
+  text-align: center;
 }
 /*# sourceMappingURL=styles.css.map */
