@@ -107,6 +107,11 @@ $iconos:(
     padding: 0 50px;
 }
 
+.guarantees-text a {
+    text-decoration: none;
+    color: #000000;
+}
+
 @each $icon, $content in $iconos {
     .#{$icon} {
         content: $content;

@@ -303,6 +303,11 @@ body {
   padding: 0 50px;
 }
 
+.guarantees-text a {
+  text-decoration: none;
+  color: #000000;
+}
+
 .findus {
   content: url(../images/icons/map.png);
 }
