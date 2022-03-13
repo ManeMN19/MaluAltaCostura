@@ -396,6 +396,7 @@ body {
 .product__card--img {
   opacity: 0.8;
   width: 300px;
+  border-radius: 15px;
 }
 
 .product__card--img:hover {
