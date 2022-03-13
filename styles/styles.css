@@ -87,6 +87,18 @@ body {
   content: url(../images/icons/shipped.png);
 }
 
+.bestprice {
+  content: url(../images/icons/best-price.png);
+}
+
+.handmade {
+  content: url(../images/icons/handmade.png);
+}
+
+.highquality {
+  content: url(../images/icons/high-quality.png);
+}
+
 /* Productos */
 .cards-list {
   z-index: 0;
@@ -360,5 +372,15 @@ body {
 .modal-body {
   font-weight: 400;
   text-align: center;
+}
+
+.feature-text p {
+  text-align: left;
+}
+
+@media (max-width: 1200px) {
+  .feature-text p, .feature-text h2 {
+    text-align: center;
+  }
 }
 /*# sourceMappingURL=styles.css.map */

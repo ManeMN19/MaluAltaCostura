@@ -11,7 +11,10 @@ $icons:(
     calendar:url(../images/icons/calendar.png),
     needle: url(../images/icons/needle-and-thread.png),
     dressmaker: url(../images/icons/dressmaker.png),
-    shipped: url(../images/icons/shipped.png)
+    shipped: url(../images/icons/shipped.png),
+    bestprice: url(../images/icons/best-price.png),
+    handmade: url(../images/icons/handmade.png),
+    highquality: url(../images/icons/high-quality.png)
 );
 
 @each $icon, $content in $icons {
