@@ -12,8 +12,14 @@
 
 .btnlogin {
     background-color: var(--lavanderweb);
-    width: 250px;
+    width: 100%;
 }
+
+@media (max-width: 1200px) {
+    .btnlogin {
+        width: 100%;
+    }
+  }
 
 .modal-content {
     background-color: var(--lavanderblush);

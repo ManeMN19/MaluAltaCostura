@@ -1,0 +1,12 @@
+.cita-text__p{
+    text-align: left!important;
+}
+
+@media (max-width: 1200px) {
+    .cita-text__p {
+        text-align: center!important;
+    }
+    .cita-text h2 {
+        text-align: center;
+    }
+  }

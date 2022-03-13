@@ -358,7 +358,13 @@ body {
 
 .btnlogin {
   background-color: var(--lavanderweb);
-  width: 250px;
+  width: 100%;
+}
+
+@media (max-width: 1200px) {
+  .btnlogin {
+    width: 100%;
+  }
 }
 
 .modal-content {
@@ -374,13 +380,32 @@ body {
   text-align: center;
 }
 
-.feature-text p {
-  text-align: left;
+.cita-text__p {
+  text-align: left !important;
 }
 
 @media (max-width: 1200px) {
-  .feature-text p, .feature-text h2 {
+  .cita-text__p {
+    text-align: center !important;
+  }
+  .cita-text h2 {
     text-align: center;
   }
+}
+
+.product__card--img {
+  opacity: 0.8;
+  width: 300px;
+}
+
+.product__card--img:hover {
+  -webkit-box-shadow: 0px 0px 10px #444;
+          box-shadow: 0px 0px 10px #444;
+  z-index: 2;
+  -webkit-transition: all 200ms ease-in;
+  transition: all 200ms ease-in;
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+  opacity: 1;
 }
 /*# sourceMappingURL=styles.css.map */
